@@ -1,0 +1,120 @@
+/* Light mode (default) */
+:root {
+    --background-color: #e0f0ff;
+    --header-bg: #007bff;
+    --header-text-color: #ffffff;
+    --card-bg: #e0f0ff;
+    --card-border-color: #ddd;
+    --text-color: #000;
+    --footer-bg: #007bff;
+    --footer-text-color: #ffffff;
+}
+
+body.dark-mode {
+    --background-color: #2d2d2d;
+    --header-bg: #1e3a8a;
+    --header-text-color: #e0e0e0;
+    --card-bg: #333333;
+    --card-border-color: #444;
+    --text-color: #f8f9fa;
+    --footer-bg: #1e3a8a;
+    --footer-text-color: #e0e0e0;
+    --input-bg: #333;
+    --danger-bg: #b30000;
+    --primary-bg: #0056b3;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Cards dark mode */
+.dark-mode .card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+    color: var(--text-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+/* Card titles and subtitles */
+.dark-mode .card-title {
+    color: #ffffff;
+    /* טקסט לבן */
+    font-weight: bold;
+}
+
+.dark-mode .card-subtitle {
+    color: #cccccc;
+    /* טקסט אפור בהיר */
+    font-style: italic;
+}
+
+/* Card links */
+.dark-mode .card a {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+.dark-mode .card a:hover {
+    color: var(--link-hover-color);
+    text-decoration: none;
+}
+
+/* Contact details */
+.dark-mode .card .contact-item {
+    color: #cccccc;
+    font-size: 0.9rem;
+}
+
+.dark-mode .card .contact-item svg {
+    color: var(--text-color);
+}
+
+/* Images */
+.dark-mode .card img {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
+    object-fit: cover;
+    /* התמונה ממלאת את כל המבנה */
+}
+
+/* Forms dark mode */
+.dark-mode .form-control {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+    color: var(--text-color);
+}
+
+.dark-mode .form-control:focus {
+    border-color: var(--link-color);
+    box-shadow: 0 0 0 0.2rem rgba(30, 144, 255, 0.5);
+}
+
+/* Placeholder color for forms */
+.dark-mode .form-control::placeholder {
+    color: #aaaaaa;
+    opacity: 0.7;
+}
+
+/* Navbar dark mode */
+.dark-mode .navbar {
+    background-color: var(--card-bg) !important;
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Footer dark mode */
+.dark-mode .footer {
+    background-color: var(--card-bg);
+    border-top-color: var(--border-color);
+    color: var(--text-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+}

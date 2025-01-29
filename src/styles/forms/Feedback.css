@@ -1,0 +1,27 @@
+/* חיווי שגיאות */
+.form-error {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.form-error:before {
+    content: '⚠';
+    margin-right: 0.5rem;
+}
+
+/* חיווי הצלחה */
+.form-success {
+    color: #198754;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.form-success:before {
+    content: '✓';
+    margin-right: 0.5rem;
+}

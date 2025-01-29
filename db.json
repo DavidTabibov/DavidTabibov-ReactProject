@@ -1,0 +1,18 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "name": "Noam",
+            "email": "noam@webify.co.il",
+            "password": "Abc123",
+            "isAdmin": true
+        },
+        {
+            "id": "2",
+            "name": "Liat",
+            "email": "Liat@gmail.com",
+            "password": "BlaBla",
+            "isAdmin": false
+        }
+    ]
+}

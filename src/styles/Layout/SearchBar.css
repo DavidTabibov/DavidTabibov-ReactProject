@@ -1,0 +1,18 @@
+.search-input {
+    max-width: 200px;
+    transition: max-width 0.3s ease;
+}
+
+.search-input:focus {
+    max-width: 300px;
+}
+
+.search-input.dark-mode {
+    background-color: #2d2d2d;
+    color: white;
+    border-color: #404040;
+}
+
+.search-input.dark-mode::placeholder {
+    color: #adb5bd;
+}

@@ -1,0 +1,27 @@
+body.dark-mode .card {
+    background-color: #2d2d2d;
+    border-color: #404040;
+}
+
+body.dark-mode .form-label {
+    color: #e9ecef;
+}
+
+body.dark-mode .form-control {
+    background-color: #1a1a1a;
+    border-color: #404040;
+    color: #fff;
+}
+
+body.dark-mode .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+body.dark-mode .invalid-feedback {
+    color: #ff6b6b;
+}
+
+body.dark-mode .form-check-label {
+    color: #e9ecef;
+}

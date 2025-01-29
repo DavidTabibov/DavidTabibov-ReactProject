@@ -1,0 +1,35 @@
+.search-bar {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.search-bar .input-group-text {
+    background-color: transparent;
+    border-right: none;
+}
+
+.search-bar .form-control {
+    border-left: none;
+}
+
+.search-bar .form-control:focus {
+    box-shadow: none;
+}
+
+.clear-search {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.clear-search:hover {
+    color: #dc3545;
+}
+
+/* Dark mode styles */
+body.dark-mode .search-bar .input-group-text,
+body.dark-mode .search-bar .form-control {
+    background-color: #1a1a1a;
+    border-color: #404040;
+    color: #ffffff;
+}

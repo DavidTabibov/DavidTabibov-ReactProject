@@ -1,0 +1,15 @@
+.layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1 0 auto;
+    padding: 20px 0;
+}
+
+/* Dark mode transition */
+.layout {
+    transition: background-color 0.3s ease;
+}

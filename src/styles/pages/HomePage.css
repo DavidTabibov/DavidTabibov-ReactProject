@@ -1,0 +1,53 @@
+.home-header {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.home-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.home-subtitle {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+/* Dark mode styles */
+body.dark-mode .home-header {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .home-subtitle {
+    color: #adb5bd;
+}
+
+.home-header {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.home-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.home-subtitle {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+/* Dark mode styles */
+body.dark-mode .home-header {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .home-subtitle {
+    color: #adb5bd;
+}
