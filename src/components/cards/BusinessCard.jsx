@@ -67,7 +67,7 @@ const BusinessCard = ({
                 <Card.Text style={{ fontSize: '0.9rem' }}>
                     <strong>Phone:</strong> {card.phone || 'N/A'} <br />
                     <strong>Address:</strong> {card.address?.street || 'N/A'}, {card.address?.city || 'N/A'} <br />
-                    <strong>Card Number:</strong> {card.cardNumber || 'N/A'}
+                    <strong>Card Number:</strong> {card.cardNumber || card.bizNumber || 'N/A'}
                 </Card.Text>
             </Card.Body>
 
